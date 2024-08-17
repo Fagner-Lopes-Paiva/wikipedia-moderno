@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;  
+}
+body {
+    background-color: #ccc;
+}
+a {
+    color: blue;
+}
+#conteine-da-pagina {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 1492px;
+    padding-left: 52px;
+    padding-right: 52px;
+    margin-left: 153.500px;
+    margin-right: 153.500px;
+}
+/* Conteudo do cabeçalho */
+/* Inicio */
+#cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1492px;
+    height: 66px;
+}
+#menu-de-navegacao {
+    display: flex;
+    justify-content: center;
+    width: 1596px;
+}
+#butao {
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+#menu {
+    display: none;
+}
+#imagem-do-butao-menu {
+    width: 32px;
+}
+#conteudo-da-logo-e-pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteiner-de-pesquisa {
+    width: 500px;
+    height: 36px;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+#conteudo-do-nome-e-descricao {
+    width: 120px;
+    height: 50px;
+}
+#campo-de-digitacao {
+    margin: 0;
+    width: 386px;
+    height: 32px;
+    padding-left: 10px;
+}
+#conteiner-de-pesquisa > button {
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: -5px;
+    height: 36px;
+}
+#opcoes-de-login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 680px;
+    gap: 10px;
+}
+#opcoes-de-login > a {
+    display: flex;
+    justify-content: flex-end;
+}
+/* Fim */
+
+/* Corpo do site */
+/* Inicio */
+#corpo-do-site {
+    display: grid;
+    width: 948px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+#coneiner-dos-links {
+    display: flex;
+    justify-content: space-between;
+}
+#coneiner-dos-links > div {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    gap: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    background-color: #ccc;
+}
+th, td {
+    padding: 10px;
+}
+li {
+    display: flex;
+    text-indent: 10px;
+    margin-left: 20px;
+}
+li::before {
+    content: "•";
+    color: black;
+    font-size: 20px;
+    line-height: 1;
+}
+.ul-informativo > li > p {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin: 0;
+}
+pre {
+    padding-top: 20px;
+    background-color: #ccc;
+}
+/* Fim */
+
+/* Rodape */
+/* Inicio */
+#conteiner-de-links-do-rodape {
+    display: flex;
+    gap: 20px;
+}
+footer {
+    padding: 50px 0px 82px;
+}
